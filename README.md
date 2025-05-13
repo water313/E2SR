@@ -13,3 +13,6 @@ datasets32
 │   ├── trains
 │   └── Chikusei_test.mat
 ```
+
+训练命令行如下
+python main_E2SR.py train --dataset_name 'Chikusei' --epochs 200 --batch_size 32 --model_title "E2SR" --n_feats 128 --n_blocks 16 --n_scale 8 --gpus "0"
